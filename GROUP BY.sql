@@ -1,7 +1,6 @@
 --- GROUP BY (resumir mi informacion)
 
 ----- cuales es el top 3 de proveedores con mayor registro de productos.
-
 SELECT TOP 3 
     p.SupplierID, 
     s.SupplierName, 
