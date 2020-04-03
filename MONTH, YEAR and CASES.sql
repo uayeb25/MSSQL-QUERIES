@@ -43,6 +43,7 @@ GROUP BY YEAR(OrderDate),
             ELSE '2H'
         END
 
+
 ------ 
 select MAX(OrderDate) 
 from example.Orders
